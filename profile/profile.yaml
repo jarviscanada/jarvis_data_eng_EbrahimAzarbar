@@ -48,6 +48,11 @@ jarvis_projects:
     git_url: "/core_java"
     description: "Implemented a Java-based text searching application inspired by the Unix grep command that efficiently scans directories and processes files line by line using regular expressions. The application avoids loading entire files into memory by streaming file contents, significantly improving performance and memory usage when working with large directories. It was designed around a clean interface to define the core processing flow, with multiple implementations using traditional loops and Java Streams to compare approaches. The project was built with core Java, managed with Maven, and containerized using Docker to ensure consistent and portable execution across environments."
 
+  - name: "Data Analytics"
+    git_url: "/python_data_analytics"
+    description: "Analyzed historical retail transaction data using Python and Jupyter Notebook to uncover customer purchasing patterns and sales trends. Applied data cleaning, exploratory analysis, and RFM-based customer segmentation using Pandas and NumPy, and transformed OLTP data into analytics-ready OLAP structures to support data-driven marketing and revenue optimization."
+
+
 
 # List of personal or academic projects
 # Feel free to add more projects
