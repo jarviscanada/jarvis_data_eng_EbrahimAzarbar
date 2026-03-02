@@ -1,6 +1,6 @@
 # Ebrahim Azarbar . Jarvis Consulting
 
-My name is Ebrahim Azarbar and I am a Computer Science graduate from York University. During my studies I built a strong foundation in programming, data structures, and systems concepts. I have professional experience working as a software engineer at Hivelink Tech Solution where I worked on backend development, databases, and deploying applications using AWS. I also worked with infrastructure tools like Terraform and CI/CD pipelines to support real client projects. What excites me about software is the ability to turn ideas into working systems that people actually use. I enjoy problem solving, learning how things work under the hood, and improving systems over time. I am motivated by continuous learning and hands-on experience.
+My name is Ebrahim Azarbar and I am a Computer Science graduate from York University. During my studies I built a strong foundation in programming, data structures, and systems concepts. I have professional experience working as a software engineer at Hivelink Tech Solution where I worked on backend development and deploying applications using AWS. What excites me about software is the ability to turn ideas into working systems that people actually use. I enjoy problem solving, learning how things work under the hood, and improving systems over time. I am motivated by continuous learning and hands-on experience.
 
 ## Skills
 
@@ -8,7 +8,7 @@ My name is Ebrahim Azarbar and I am a Computer Science graduate from York Univer
 
 **Competent:** Typescript, JavaScript, C++, Java, Azure, MongoDB
 
-**Familiar:** GO, Linux, GCP, Ansible, Prometheus, TensorFlow, Databricks
+**Familiar:** Linux, GCP, TensorFlow, Terraform, Databricks
 
 ## Jarvis Projects
 
@@ -20,6 +20,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_EbrahimAza
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EbrahimAzarbar/tree/master/core_java)]: Implemented a Java-based text searching application inspired by the Unix grep command that efficiently scans directories and processes files line by line using regular expressions. The application avoids loading entire files into memory by streaming file contents, significantly improving performance and memory usage when working with large directories. It was designed around a clean interface to define the core processing flow, with multiple implementations using traditional loops and Java Streams to compare approaches. The project was built with core Java, managed with Maven, and containerized using Docker to ensure consistent and portable execution across environments.
 
 **Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EbrahimAzarbar/tree/master/python_data_analytics)]: Analyzed historical retail transaction data using Python and Jupyter Notebook to uncover customer purchasing patterns and sales trends. Applied data cleaning, exploratory analysis, and RFM-based customer segmentation using Pandas and NumPy, and transformed OLTP data into analytics-ready OLAP structures to support data-driven marketing and revenue optimization.
+
+**React Trading Dashboard** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EbrahimAzarbar/tree/master/react_trading_app)]: Built a full-stack trading dashboard using React and Flask to manage trader accounts and simulate financial operations. Developed RESTful APIs to create, retrieve, deposit, withdraw, and delete trader records, and integrated them with a responsive React interface using Axios. Implemented dynamic routing and state management for trader profiles, real-time dashboard updates, and quote visualization using Ant Design tables, with Flask-CORS enabling seamless client–server communication.
 
 
 ## Highlighted Projects
