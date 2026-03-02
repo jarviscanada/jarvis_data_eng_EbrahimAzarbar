@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_EbrahimAza
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My name is Ebrahim Azarbar and I am a Computer Science graduate from York University. During my studies I built a strong foundation in programming, data structures, and systems concepts. I have professional experience working as a software engineer at Hivelink Tech Solution where I worked on backend development, databases, and deploying applications using AWS. I also worked with infrastructure tools like Terraform and CI/CD pipelines to support real client projects. What excites me about software is the ability to turn ideas into working systems that people actually use. I enjoy problem solving, learning how things work under the hood, and improving systems over time. I am motivated by continuous learning and hands-on experience.
+summary: My name is Ebrahim Azarbar and I am a Computer Science graduate from York University. During my studies I built a strong foundation in programming, data structures, and systems concepts. I have professional experience working as a software engineer at Hivelink Tech Solution where I worked on backend development and deploying applications using AWS. What excites me about software is the ability to turn ideas into working systems that people actually use. I enjoy problem solving, learning how things work under the hood, and improving systems over time. I am motivated by continuous learning and hands-on experience.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -28,12 +28,10 @@ skills:
 
   # At least 5 skills
   familiar:
-    - GO
     - Linux
     - GCP
-    - Ansible
-    - Prometheus
     - TensorFlow
+    - Terraform
     - Databricks
 
 # List of Jarvis projects
@@ -52,7 +50,9 @@ jarvis_projects:
     git_url: "/python_data_analytics"
     description: "Analyzed historical retail transaction data using Python and Jupyter Notebook to uncover customer purchasing patterns and sales trends. Applied data cleaning, exploratory analysis, and RFM-based customer segmentation using Pandas and NumPy, and transformed OLTP data into analytics-ready OLAP structures to support data-driven marketing and revenue optimization."
 
-
+  - name: "React Trading Dashboard"
+    git_url: "/react_trading_app"
+    description: "Built a full-stack trading dashboard using React and Flask to manage trader accounts and simulate financial operations. Developed RESTful APIs to create, retrieve, deposit, withdraw, and delete trader records, and integrated them with a responsive React interface using Axios. Implemented dynamic routing and state management for trader profiles, real-time dashboard updates, and quote visualization using Ant Design tables, with Flask-CORS enabling seamless client–server communication."
 
 # List of personal or academic projects
 # Feel free to add more projects
