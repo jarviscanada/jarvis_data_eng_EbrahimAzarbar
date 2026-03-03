@@ -1,0 +1,61 @@
+apiVersion: v1
+kind: Service
+metadata:
+ name: trading
+ labels:
+   app: trading
+spec:
+ ports:
+   - port: 80
+     targetPort: 5000
+ selector:
+   app: trading
+   tier: app-server
+ type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: trading
+ labels:
+   app: trading
+spec:
+ selector:
+   matchLabels:
+     app: trading
+     tier: app-server
+ strategy:
+   type: Recreate
+ replicas: 2
+ template:
+   metadata:
+     labels:
+       app: trading
+       tier: app-server
+   spec:
+     containers:
+       - name: trading
+         image: jason121301/trading-app
+         env:
+           - name: PSQL_URL
+             value: jdbc:postgresql://trading-psql:5432/jrvstrading
+           - name: PSQL_USER
+             value: postgres
+           - name: PSQL_PASSWORD
+             valueFrom:
+               secretKeyRef:
+                 name: trading-app
+                 key: POSTGRES_PASSWORD
+           - name: FINNHUB_TOKEN
+             valueFrom:
+               secretKeyRef:
+                 name: trading-app
+                 key: FINNHUB_TOKEN
+           - name: FINAGE_TOKEN
+             valueFrom:
+               secretKeyRef:
+                 name: trading-app
+                 key: FINAGE_TOKEN
+         ports:
+           - containerPort: 5000
+             name: trading
