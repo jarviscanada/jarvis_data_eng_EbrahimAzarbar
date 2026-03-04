@@ -45,7 +45,7 @@ spec:
        tier: db
    spec:
      containers:
-     - image: jason121301/trading-psql
+     - image: stevenw233/trading-psql
        name: psql
        env:
        - name: POSTGRES_PASSWORD

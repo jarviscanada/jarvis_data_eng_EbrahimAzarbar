@@ -35,7 +35,7 @@ spec:
    spec:
      containers:
        - name: trading
-         image: jason121301/trading-app
+         image: stevenw233/trading-app
          env:
            - name: PSQL_URL
              value: jdbc:postgresql://trading-psql:5432/jrvstrading
