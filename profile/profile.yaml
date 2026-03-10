@@ -5,34 +5,34 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_EbrahimAza
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My name is Ebrahim Azarbar and I am a Computer Science graduate from York University. During my studies I built a strong foundation in programming, data structures, and systems concepts. I have professional experience working as a software engineer at Hivelink Tech Solution where I worked on backend development and deploying applications using AWS. What excites me about software is the ability to turn ideas into working systems that people actually use. I enjoy problem solving, learning how things work under the hood, and improving systems over time. I am motivated by continuous learning and hands-on experience.
+summary: My name is Ebrahim Azarbar and I am a Computer Science graduate from York University. During my studies I built a strong foundation in programming, data structures, and systems concepts. I have professional experience working as a software engineer at Hivelink Tech Solution where I worked on backend development, cloud infrastructure, and deploying applications using AWS. What excites me about software is the ability to turn ideas into working systems that people actually use. I enjoy problem solving, learning how things work under the hood, and improving systems over time. I am motivated by continuous learning and hands-on experience.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Python
     - AWS
+    - SQL (PostgreSQL)
+    - Linux
     - Git
-    - PostgreSQL
-    - Docker
+    - Python
   # At least 5 skills
   competent:
-    - Typescript
-    - JavaScript
-    - C++
+    - Terraform
+    - Bash
     - Java
-    - Azure
+    - ETL Pipelines
+    - CI/CD Pipelines
     - MongoDB
 
   # At least 5 skills
   familiar:
-    - Linux
+    - Azure
     - GCP
-    - TensorFlow
-    - Terraform
-    - Databricks
+    - Docker
+    - Kubernetes
+    - C++
 
 # List of Jarvis projects
 jarvis_projects:
@@ -61,10 +61,10 @@ highlighted_projects:
   - name: "JobOrca"
 
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Built a full-stack job tracking platform using Next.js and PostgreSQL to manage and analyze thousands of job applications through dashboards, metrics, and reminder workflows. The platform includes custom APIs built with Next.js and secure authentication using Firebase Google login with session-based access control. A relational PostgreSQL schema was designed with Prisma ORM to support efficient CRUD operations and generate real-time application insights. To streamline data entry, a custom Firefox and Chrome browser extension was developed to allow one-click saving of job postings directly into the platform. The application was deployed on Vercel with automated CI/CD pipelines powered by GitHub Actions, while the PostgreSQL database was managed using Supabase, and the platform is live at JobOrca.com."
+    description: "Built a full-stack job tracking platform using Next.js and PostgreSQL to manage and analyze thousands of job applications through dashboards, metrics, and reminder workflows. Designed a relational PostgreSQL schema using Prisma ORM to support efficient SQL queries and scalable CRUD operations. Developed backend APIs with Next.js and implemented secure authentication using Firebase Google login with session-based access control. To streamline job data entry, built Chrome and Firefox browser extensions that allow users to save job postings to the platform with one click. The application was deployed on Vercel with automated CI/CD pipelines, while the PostgreSQL database is managed using Supabase, and the platform is live at JobOrca.com."
 
   - name: "DiabetiScan"
-    description: "Developed an end-to-end machine learning web application to predict diabetes using TensorFlow in Python, with a FastAPI backend and a .NET frontend for user interaction. The project included building an ETL pipeline with PySpark to clean real-world health data, handle outliers, and manage missing values to ensure reliable model performance. The application was containerized with Docker and deployed on AWS ECS Fargate, while the trained model was deployed to an Amazon SageMaker endpoint to support real-time inference. Infrastructure provisioning and deployment were fully automated using Terraform to manage AWS resources in a scalable and reproducible manner."
+    description: "Developed an end-to-end machine learning web application to predict diabetes using TensorFlow in Python, with a FastAPI backend and a .NET frontend for user interaction. Built an ETL pipeline to clean and transform a healthcare dataset, handling missing values and outliers to prepare data for model training. The application was containerized with Docker and deployed on AWS ECS Fargate, while the trained model was served through an Amazon SageMaker endpoint for real-time inference. Infrastructure provisioning and deployment were automated using Terraform to manage AWS resources in a scalable and reproducible manner."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -73,14 +73,14 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "Nov 2025-present"
+    duration: "Nov 2025 - Present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed production-quality backend and data engineering applications as part of a structured software development program, working extensively with Linux, Java, SQL, Docker, and cloud technologies. Designed and implemented systems such as a Linux cluster monitoring solution and core Java applications, focusing on clean architecture, performance optimization, and memory-efficient data processing. Collaborated in an Agile-style environment with code reviews, technical documentation, and version control best practices, while applying industry standards for testing, containerization, and deployment. Strengthened problem-solving skills by delivering end-to-end solutions that emphasize scalability, reliability, and maintainability."
+    description: "Developed backend and data engineering applications in a structured software development program, working extensively with Linux, Python, SQL, Docker, and cloud technologies. Designed and implemented systems including a Linux cluster monitoring solution using Bash scripting and PostgreSQL, and developed data processing workflows using Python for analysis and transformation tasks. Built performance-focused core Java applications emphasizing clean architecture and memory-efficient processing. Collaborated in an Agile-style environment with code reviews, version control using Git, and technical documentation, while applying best practices for testing, containerization, and deployment."
 
   - title: "Software Engineer"
     company: "Hivelink Tech Solution Inc."
     duration: "Jan 2024 - July 2025"
-    description: "Engineered and deployed cloud-based web applications to remotely visualize real-time industrial data for monitoring and diagnostics, leveraging AWS services such as EC2, VPC, RDS, and S3. Designed highly available infrastructure by deploying EC2 instances across multiple Availability Zones with Auto Scaling Groups and load balancing, and built a resilient PostgreSQL database on Amazon RDS using Multi-AZ and read replicas to improve availability and read performance. Implemented cost-optimization strategies by developing AWS Lambda functions to archive historical data from RDS to Amazon S3 and Glacier using lifecycle policies. Improved system reliability and incident response by monitoring infrastructure metrics with Amazon CloudWatch and integrating alerting through Amazon SNS."
+    description: "Engineered and deployed cloud-based web applications to remotely visualize real-time industrial data for monitoring and diagnostics, leveraging AWS services such as EC2, VPC, RDS, and S3. Designed highly available infrastructure by deploying EC2 instances across multiple Availability Zones with Auto Scaling Groups and load balancing, and built a fault tolerant PostgreSQL database on Amazon RDS using Multi-AZ and read replicas to improve availability and read performance. Implemented cost-optimization strategies by developing AWS Lambda functions to archive historical data from RDS to Amazon S3 and Glacier using lifecycle policies. Improved system reliability and incident response by monitoring infrastructure metrics with Amazon CloudWatch and integrating alerting through Amazon SNS."
 
 #List of edcuation
 education:
