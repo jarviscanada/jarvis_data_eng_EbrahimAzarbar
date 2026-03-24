@@ -33,16 +33,16 @@ function TraderAccountPage() {
     }
   }
 
-  useEffect(() => {
-    if (routeParams?.traderId) {
-      const traderId = routeParams.traderId
-      setState(prev => ({
-        ...prev,
-        traderId
-      }))
-      fetchTrader(traderId)
-    }
-  }, [])
+useEffect(() => {
+  if (routeParams?.traderId) {
+    const traderId = routeParams.traderId
+    setState(prev => ({
+      ...prev,
+      traderId
+    }))
+    fetchTrader(traderId)
+  }
+}, [routeParams.traderId])
 
   const showDepositModal = () => {
     setState(prev => ({
