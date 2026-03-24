@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd react_trading_app/frontend
-          npm ci
+          npm install
 
       - name: Build app
         run: |
